@@ -339,7 +339,7 @@ const GetStudentsDetails = () => {
       <Legend />
       </PieChart>
       </div>
-            <span className='display-between'>
+            <span className='display-between'>  
               Email : {userEmail}{" "}
               <button onClick={handleSignOut}>Sign Out</button>
             </span>
@@ -354,7 +354,7 @@ const GetStudentsDetails = () => {
                 />
                 Sign In with Google
               </button>
-            </div>
+            </div> 
           )}
         </p>
       </div>
